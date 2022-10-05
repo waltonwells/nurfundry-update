@@ -1,0 +1,54 @@
+.features {
+    background: rgba(0, 0, 0, 0.652);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    z-index: -1;
+    height: 700px;
+}
+
+.features .features-text {
+    color: white;
+    padding-left: 5rem;
+    padding-bottom: 15rem;
+}
+
+.features .features-text h1 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 140px;
+}
+
+.features .features-text h2 {
+    font-size: 28px;
+    font-weight: lighter;
+    line-height: 45px;
+}
+
+.features .features-text .features-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.features .features-text .features-btn button {
+    background-color: #F1A61E;
+    width: 184px;
+    height: 70px;
+    border-radius: 10px;
+    color: white;
+    font-size: 28px;
+    font-family: koulen;
+}
+
+.features .features-text .features-btn .btn2 {
+    padding-right: 15rem;
+}
+
+.features-image img {
+    width: 450px;
+    height: 500px;
+    padding-right: 5rem;
+}

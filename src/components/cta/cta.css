@@ -1,0 +1,58 @@
+.cta {
+    background: rgba(0, 0, 0, 0.652);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    z-index: -1;
+    height: 700px;
+}
+
+.cta .cta-text {
+    color: white;
+    padding-left: 5rem;
+    padding-bottom: 15rem;
+}
+
+.cta .cta-text h1 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 140px;
+}
+
+.cta .cta-text h2 {
+    font-size: 28px;
+    font-weight: lighter;
+    line-height: 45px;
+}
+
+.cta .cta-text .cta-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.cta .cta-text .cta-btn button {
+    background-color: #F1A61E;
+    width: 184px;
+    height: 70px;
+    border-radius: 10px;
+    color: white;
+    font-size: 28px;
+    font-family: koulen;
+}
+
+.cta .cta-text .cta-btn .btn2 {
+    padding-right: 6rem;
+}
+
+.cta .cta-text .cta-btn .btn2 button{ 
+    width: 270px;
+}
+
+.cta-image img {
+    width: 450px;
+    height: 500px;
+    padding-right: 5rem;
+}
