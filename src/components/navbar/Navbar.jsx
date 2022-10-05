@@ -32,7 +32,7 @@ const Navbar = () => {
 
       </div>
 <div className='ml-[3rem]'>
-<img src={logo} alt="hoobank" className="w-[200px] h-[100px]" style={{objectFit: 'contain', height: '100px', width:'100px'}} />
+<img src={logo} alt="hoobank" className="w-[200px] h-[100px]" style={{objectFit: 'contain', height: '80px', width:'300px'}} />
 
 </div>
 
