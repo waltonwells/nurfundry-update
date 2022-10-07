@@ -54,3 +54,85 @@
     width: 100%;
     font-family: Dosis;
 }
+
+
+
+@media screen and (max-width:700px){
+    @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+.footerlogo {
+    padding-left: 0.1rem;
+}
+
+.footerlogo img {
+    width: 170px;
+    height: 150px;
+}
+.line1 {
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+.line1 img {
+    height: 130px;
+}
+
+.links1 {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    color: #0d3a44;
+    font-family: Dosis;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.links1 li {
+    list-style: none;
+}
+
+.line2 {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.line2 img {
+    height: 130px;
+}
+
+.links2 {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-family: Dosis;
+    color: #0d3a44;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.links2 li {
+    list-style: none;
+}
+
+.copyright {
+    font-family: Dosis;
+    font-size: 16px;
+    padding-bottom: 1rem;
+}
+
+.copyright h4 {
+    padding-left: 12rem;
+    font-weight: lighter;
+}
+
+.footerflex {
+    display: flex;
+    align-items: center;
+    background: #F1A61E;
+    font-family: Dosis;
+    width: 500px;
+}
+
+.footer {
+    max-width: 500px;
+}
+
+}

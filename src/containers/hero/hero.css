@@ -26,6 +26,7 @@
     padding-left: 3rem;
 }
 
+
 .hero p{
     color: white;
     font-family: Dosis;
@@ -62,3 +63,30 @@
 .herobtn .action2{
     padding-left: 2rem;
 }
+
+@media (max-width:700px) {
+    .hero h1{
+        font-size: 30px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .hero p{
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 2rem;
+    }
+    
+    .hero img{
+        width: 100%;
+        z-index: -1;
+        height: 100%;
+    }
+    
+    .herobtn{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        top: 78%;
+        padding-left: 0.5rem;
+    }}

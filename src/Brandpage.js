@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useState,useRef} from 'react'
+
 
 import { Footer } from './containers';
 import { Navbar } from './components';
@@ -14,6 +15,25 @@ import MINTNOW from '../src/assets/MINTNOW.svg';
 import './Brandpage.css';
 
 const Brandpage = () => {
+
+  // const [isMoved, setIsMoved] = useState(false);
+  // const [slideNumber, setSlideNumber] = useState(0);
+
+  // const listRef = useRef();
+
+  // const handleClick = (direction) => {
+  //   setIsMoved(true);
+  //   let distance = listRef.current.getBoundingClientRect().x - 50;
+  //   if (direction === "left" && slideNumber > 0) {
+  //     setSlideNumber(slideNumber - 1);
+  //     listRef.current.style.transform = `translateX(${230 + distance}px)`;
+  //   }
+  //   if (direction === "right" && slideNumber < 5) {
+  //     setSlideNumber(slideNumber + 1);
+  //     listRef.current.style.transform = `translateX(${-230 + distance}px)`;
+  //   }
+  // };
+
   return (
     <div className='App'>
       <div className='gradient_bg'>
@@ -23,12 +43,30 @@ const Brandpage = () => {
         <img src={PAGEBODY} alt='pagebody' />
         <div className='class'><h1>CLASS: BRANDS</h1></div>
         <div className='collection'>
-          <div className='brandleft'><img src={BRANDLEFT} alt='brandleft' /></div>
-          <div className='brandfront'><img src={BRANDFRONT} alt='brandfront' /></div>
-          <div className='brandright'><img src={BRANDRIGHT} alt='brandright' /></div>
+
+          <img src={BRANDLEFT} alt='brandleft' className='left' />
+          <img src={BRANDRIGHT} alt='brandright' className='front'/>
+          <img src={BRANDRIGHT} alt='brandright' className='right' />
+          
+
+        
+
+
         </div>
+{/* <div className='sliderwrapper'>
+  <div className='sliderImages'>
+
+          <img src={BRANDRIGHT} alt='brandright' className=' galary-item galary-item1'/>
+          <img src={BRANDRIGHT} alt='brandright' className='galary-item  galary-item2' />
+          <img src={BRANDRIGHT} alt='brandright' className='galary-item  galary-item3' />
+
+  </div>
+  <div className='galary-control'></div>
+</div> */}
+
+
         <div className='icons'>
-          <div className='lefticon'><img src={LEFTICON} alt='lefticon'  /></div>
+          <div className='lefticon'><img src={LEFTICON} alt='lefticon' /></div>
           <div className='righticon'><img src={RIGHTICON} alt='righticon'  /></div>
         </div>
         <div className='price'><h3>$5000</h3></div>

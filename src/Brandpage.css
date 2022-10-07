@@ -1,9 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 
+.brandpage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.App{
+    width: 100;
+    height: 100vh;
+}
 
 body{
 font-family: 'koulen', cursive;
+
 }
 
 * {
@@ -15,7 +28,8 @@ font-family: 'koulen', cursive;
 
 body {
     background: var(--color-bg);
-    width: 100vw;
+    
+
 }
 
 .hero {
@@ -39,45 +53,48 @@ body {
 
 .pagebody .class {
     position: absolute;
-    top: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
 }
 
 .pagebody .class h1 {
     font-size: 60px;
-    padding-left: 35rem;
 }
 
 .collection {
     display: flex;
     position: absolute;
-    top: 75%;
+    justify-content: center;
+    width: 100vw;
 }
 
-.brandleft {
-    width: 25%;
-    padding-left: 15rem;
-}
 
-.brandleft img {
-    height: 400px;
+
+
+.left{
+   width: 400px;
+   height: 300px; 
+   margin-left:46rem;
+
+}
+.right{
+    
     width: 400px;
-}
+    height: 300px; 
+    margin-right:46rem;
 
-.brandfront {
-    width: 40%;
-    padding-top: 5rem;
-    padding-left: 20px;
-}
+ }
 
-.brandright {
-    width: 25%;
-    padding-right: 25rem;
-}
+ .front{
+    width: 600px;
+    height: 500px; 
+    z-index: 1; 
+    margin-top: 2rem;
+    box-shadow: 3rem;
+ }
 
-.brandright img {
-    width: 500px;
-    height: 500px;
-}
 
 .icons {
     display: flex;
@@ -176,78 +193,311 @@ body {
 .mintnow img{
     width: 200px;
     height: 48px;
+} 
+
+
+
+
+/* Media Screen */
+
+@media screen and (max-width:550px) {
+    .pagebody{
+        background: image(url(../src/assets/BIGBODY.svg));
+        align-items: center;
+        width: 100%;
+    }
+    
+    .pagebody img{
+        width: 500px;
+        z-index: -1;
+        position: relative;
+    }
+    
+    .pagebody .class {
+        position: absolute;
+        top: 21%;
+    }
+    
+    .pagebody .class h1 {
+        font-size: 30px;
+        padding-left: 12rem;
+    }
+    
+    .collection {
+        display: flex;
+        position: absolute;
+        top: 7%;
+    }
+    
+    .brandfront {
+        width: 45%;
+        padding-left: 1rem;
+
+    }
+    
+    .brandright {
+        width: 20%;
+        padding-top: 5rem;
+        padding-left: 5px;
+    }
+    
+    .brandleft {
+        width: 20%;
+        padding-right: 0rem;
+    }
+    
+    .icons {
+        display: flex;
+        position: absolute;
+        top: 68%;
+    }
+    .righticon {
+        padding-left: 19rem;
+    }
+    
+    .lefticon {
+        padding-left: 2rem;
+    }
+    
+    .lefticon img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .righticon img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .price {
+        position: absolute;
+        top: 75%;
+        padding-left: 11rem;
+    }
+    
+    .price h3 {
+        font-size: 35px;
+        font-weight: lighter;
+        margin-top: 3rem;
+    }
+    
+    .description {
+        position: absolute;
+        top: 90%;
+        padding-left: 3rem;
+        padding-right: 2rem;
+        font-family: Dosis;
+        margin-top: 3rem;
+    }
+    
+    .description h3 {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    
+    .utilities {
+        position: absolute;
+        top: 98%;
+        padding-left: 12rem;
+        padding-top: 5rem;
+    }
+    
+    .utilities h2 {
+        font-size: 30px;
+        padding-top: 5rem;
+    }
+    
+    .coming {
+        position: absolute;
+        top: 107%;
+        padding-left: 7rem;
+        font-size: 20px;
+        font-family: dosis;
+        display: flex;
+        padding-top: 10rem;
+    }
+    .coming1 {
+        padding-left: 1rem;
+    }
+    
+    .coming2 {
+        padding-left: 2rem;
+    }
+    
+    .countdown {
+        position: absolute;
+        top: 160%;
+        padding-left: 12rem;
+        font-size: 20px;
+        padding-top: 1rem;
+    }
+    
+    .pgbtns {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 138%;
+        padding-left: 5rem;
+        padding-top: 7rem;
+    }
+    
+    .connectwallet img{
+        width: 150px;
+        height: 38px;
+    }
+    
+    .mintnow {
+        padding-left: 3rem;
+    }
+    .mintnow img{
+        width: 150px;
+        height: 38px;
+    }
 }
 
-.bigbody .audience {
-    position: absolute;
-    top: 167%;
-}
 
-.bigbody .features {
-    position: absolute;
-    top: 220%;
+
+/* Animation */
+
+ /* body{
+    width: 100vw;
+    display: flex;
+    width: 100;
+    background: linear-gradient() ;
+ }
+ .sliderwrapper{
     width: 100%;
-}
+ }
+ .sliderImages{
+    align-items: center;
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+ }
 
-.bigbody .possibility {
+ .galary-item{
+    height: 200px;
+    opacity: 0 ;
     position: absolute;
-    top: 322%;
-    width: 100%;
+    transition: all 0.1s  ease-in-out;
+    z-index: 0;
+    border-radius: 15px;
+    background-size: contain;
+ 
+
+ }
+
+ .galary-item1{
+    left:15%;
+    opacity: 4;
+    transform: translateX(-50%);
+ }
+.galary-item2, .galary-item3{
+    height: 250px;
+    opacity: 0.8;
+    width: 380px;
+    z-index: 1;
+}
+.galary-item2{
+    left: 30%;
+    transform: translateX(-50%);
+}
+.galary-item3{
+    box-shadow: -2px 5px 33px 6px rgba(red, green, blue, alpha);
+    height: 300px;
+    opacity: 1 ;
+    left: 50px;
+    transform:  translateX(-50%);
+    width: 430px;
+    z-index: 2;
 }
 
-.bigbody .cta {
-    position: absolute;
-    top: 425%;
-    width: 100%;
+.galary-item-4{
+    left: 70%;
+    transform: translateX(-50%);
+}
+.galary-item-5{
+    left: 85%;
+    opacity: -4;
+    transform: translateX(-50%);
 }
 
-
-
-/* New body */
-.newbody{
-    background: image(url(../src/assets/NEWBODY.svg));
+.galary-item-control{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    left: 70%;
+    transform: translateX(-50%);
 }
+.galary-control button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 50px;
+    padding: 0 12px;
+    text-transform: capitalize;
 
-.newbody img{
-    width: 100%;
-    z-index: -1;
+}
+.galary-control-button:focus{
+    outline: none;
+}
+.galary-controler-previous{
     position: relative;
 }
-
-.newbody .roadmap {
-    position: absolute;
-    top: 540%;
-    padding-left: 6rem;
-    padding-top: 9rem;
-
+.galary-control-previous{
+border-width: 0 5px 5px 0;
+content: '';
+display: inline-block;
+height: 5px;
+left: -30px;
+padding: 10px;
+position: absolute;
+top: 25%;
+transform: rotate(135deg) translateY(-50%);
+transition: left 0.15s ease-in-out;
+width: 5px;
 }
 
-.newbody .dao {
+.galary-control-previous:hover::before{
+    left: -40px;
+}
+.galary-control-next::before{
+    border: solid black;
+    content: '';
+    display: inline-block;
+    padding:10px;
     position: absolute;
-    top: 690%;
-    padding-left: 6rem;
-    padding-top: 9rem;
+    right: -30px;
+    top: 45;
+    transform: rotate(-45deg);
+    transform: right 0.15s ease-in-out;
+    width: 5px;
 }
 
-.newbody .about {
-    position: absolute;
-    top: 810%;
-    padding-left: 6rem;
-    padding-top: 9rem;
+.galary-control-next:hover::before{
+    right: -40px;
 }
 
-.footer{
-    display: block;
-    align-items: center;
-    background: #F1A61E;
+.galary-nav{
+    bottom: -15px;
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    padding:0;
+    position: absolute;
     width: 100%;
-    font-family: dosis;
 }
+galary-nav li{
+background: #ccc;
+border-radius: 50%;
+height: 10px;
+margin: 0 16px;
+width: 10px;
 
-.footerflex {
-    display: flex;
-    align-items: center;
-    background: #F1A61E;
-    width: 100%;
-    font-family: Dosis;
 }
+.galary-nav li.galary-item-selected{
+    background:#555;
+} */

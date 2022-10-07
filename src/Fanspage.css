@@ -17,15 +17,10 @@ body {
     background: var(--color-bg);
 }
 
-.hero {
-    z-index: -1;
-}
-
-.hero 
-
 .pagebody{
     background: image(url(../src/assets/BIGBODY.svg));
     align-items: center;
+    justify-content: center;
 }
 
 .pagebody img{
@@ -80,9 +75,10 @@ body {
     display: flex;
     position: absolute;
     top: 145%;
+    padding-right: 2rem;
 }
 .righticon {
-    padding-left: 70rem;
+    padding-left: 60rem;
 }
 
 .lefticon {
@@ -90,19 +86,19 @@ body {
 }
 
 .lefticon img{
-    width: 130px;
-    height: 130px;
+    width: 110px;
+    height: 110px;
 }
 
 .righticon img {
-    width: 130px;
-    height: 130px;
+    width: 110px;
+    height: 110px;
 }
 
 .price {
     position: absolute;
     top: 175%;
-    padding-left: 40rem;
+    padding-left: 34rem;
 }
 
 .price h3 {
@@ -123,8 +119,9 @@ body {
 
 .utilities {
     position: absolute;
+    text-align: center;
     top: 235%;
-    padding-left: 43rem;
+    padding-left: 36rem;
     padding-top: 5rem;
 }
 
@@ -136,14 +133,15 @@ body {
 .coming {
     position: absolute;
     top: 250%;
-    padding-left: 5rem;
+    place-items: center;
+    padding-left: 3rem;
     font-size: 23px;
     font-family: dosis;
     display: flex;
     padding-top: 10rem;
 }
 .coming1 {
-    padding-left: 30rem;
+    padding-left: 27rem;
 }
 
 .coming2 {
@@ -153,7 +151,7 @@ body {
 .countdown {
     position: absolute;
     top: 315%;
-    padding-left: 40rem;
+    padding-left: 38rem;
     font-size: 30px;
     padding-top: 8rem;
 }
@@ -163,7 +161,7 @@ body {
     justify-content: space-between;
     position: absolute;
     top: 285%;
-    padding-left: 32rem;
+    padding-left: 28rem;
     padding-top: 7rem;
 }
 
@@ -180,76 +178,155 @@ body {
     height: 48px;
 }
 
-.bigbody .audience {
-    position: absolute;
-    top: 167%;
-}
 
-.bigbody .features {
-    position: absolute;
-    top: 220%;
-    width: 100%;
-}
-
-.bigbody .possibility {
-    position: absolute;
-    top: 322%;
-    width: 100%;
-}
-
-.bigbody .cta {
-    position: absolute;
-    top: 425%;
-    width: 100%;
-}
-
-
-
-/* New body */
-.newbody{
-    background: image(url(../src/assets/NEWBODY.svg));
-}
-
-.newbody img{
-    width: 100%;
-    z-index: -1;
-    position: relative;
-}
-
-.newbody .roadmap {
-    position: absolute;
-    top: 540%;
-    padding-left: 6rem;
-    padding-top: 9rem;
-
-}
-
-.newbody .dao {
-    position: absolute;
-    top: 690%;
-    padding-left: 6rem;
-    padding-top: 9rem;
-}
-
-.newbody .about {
-    position: absolute;
-    top: 810%;
-    padding-left: 6rem;
-    padding-top: 9rem;
-}
-
-.footer{
-    display: block;
-    align-items: center;
-    background: #F1A61E;
-    width: 100%;
-    font-family: dosis;
-}
-
-.footerflex {
-    display: flex;
-    align-items: center;
-    background: #F1A61E;
-    width: 100%;
-    font-family: Dosis;
+@media screen and (max-width:700px) {
+    .pagebody{
+        background: image(url(../src/assets/BIGBODY.svg));
+        align-items: center;
+        width: 100%;
+    }
+    
+    .pagebody img{
+        width: 500px;
+        z-index: -1;
+        position: relative;
+    }
+    
+    .pagebody .class {
+        position: absolute;
+        top: 21%;
+    }
+    
+    .pagebody .class h1 {
+        font-size: 30px;
+        padding-left: 12rem;
+    }
+    
+    .collection {
+        display: flex;
+        position: absolute;
+        top: 7%;
+    }
+    
+    .brandfront {
+        width: 25%;
+        padding-left: 1rem;
+    }
+    
+    .brandright {
+        width: 40%;
+        padding-top: 5rem;
+        padding-left: 5px;
+    }
+    
+    .brandleft {
+        width: 40%;
+        padding-right: 0rem;
+    }
+    
+    .icons {
+        display: flex;
+        position: absolute;
+        top: 68%;
+    }
+    .righticon {
+        padding-left: 19rem;
+    }
+    
+    .lefticon {
+        padding-left: 2rem;
+    }
+    
+    .lefticon img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .righticon img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .price {
+        position: absolute;
+        top: 75%;
+        padding-left: 11rem;
+    }
+    
+    .price h3 {
+        font-size: 35px;
+        font-weight: lighter;
+    }
+    
+    .description {
+        position: absolute;
+        top: 90%;
+        padding-left: 3rem;
+        padding-right: 2rem;
+        font-family: Dosis;
+    }
+    
+    .description h3 {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    
+    .utilities {
+        position: absolute;
+        top: 98%;
+        padding-left: 12rem;
+        padding-top: 5rem;
+    }
+    
+    .utilities h2 {
+        font-size: 30px;
+        padding-top: 5rem;
+    }
+    
+    .coming {
+        position: absolute;
+        top: 107%;
+        padding-left: 7rem;
+        font-size: 20px;
+        font-family: dosis;
+        display: flex;
+        padding-top: 10rem;
+    }
+    .coming1 {
+        padding-left: 1rem;
+    }
+    
+    .coming2 {
+        padding-left: 2rem;
+    }
+    
+    .countdown {
+        position: absolute;
+        top: 160%;
+        padding-left: 12rem;
+        font-size: 20px;
+        padding-top: 3rem;
+    }
+    
+    .pgbtns {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 138%;
+        padding-left: 5rem;
+        padding-top: 7rem;
+    }
+    
+    .connectwallet img{
+        width: 150px;
+        height: 38px;
+    }
+    
+    .mintnow {
+        padding-left: 3rem;
+    }
+    .mintnow img{
+        width: 150px;
+        height: 38px;
+    }
 }

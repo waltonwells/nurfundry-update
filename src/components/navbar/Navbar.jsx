@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/LOGO.svg'
 import navicon from '../../assets/navicon.png'
 import LINKEDIN from '../../assets/LINKEDIN.png'
 import TWITTER from '../../assets/TWITTER.png'
@@ -31,12 +31,15 @@ const Navbar = () => {
         )}
 
       </div>
-<div className='ml-[3rem]'>
-<img src={logo} alt="hoobank" className="w-[200px] h-[100px]" style={{objectFit: 'contain', height: '80px', width:'300px'}} />
+
+
+   <div>
+
+   </div>
+   <div className='navlogo'>
+<img src={logo} alt="hoobank" className="logo" style={{objectFit: 'contain', height: '80px', width:'300px'}} />
 
 </div>
-
-   
           <div className='social-icons'>
             <div className='linkedin'>
               <img src={LINKEDIN} alt='linkedin' />
