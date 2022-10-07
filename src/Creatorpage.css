@@ -44,13 +44,47 @@ body {
     padding-left: 35rem;
 }
 
-.collection {
+/* .collection {
     display: flex;
     position: absolute;
     top: 75%;
+} */
+
+.collection {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+
+
+.brandleft{
+   width: 400px;
+   height: 300px; 
+   margin-left:46rem;
+
 }
 
 .brandright{
+    
+    width: 400px;
+    height: 300px; 
+    margin-right:46rem;
+
+ }
+
+ .brandfront{
+    width: 600px;
+    height: 500px; 
+    z-index: 1; 
+    margin-top: 2rem;
+    box-shadow: 3rem;
+ }
+
+
+/* .brandright{
     width: 25%;
     padding-left: 15rem;
 }
@@ -69,7 +103,7 @@ body {
 .brandfront {
     width: 25%;
     padding-right: 15rem;
-}
+} */
 
 .brandfront img {
     width: 400px;
@@ -180,6 +214,8 @@ body {
     height: 48px;
 }
 
+
+
 @media screen and (max-width:700px) {
     .pagebody{
         background: image(url(../src/assets/BIGBODY.svg));
@@ -202,33 +238,53 @@ body {
         font-size: 30px;
         padding-left: 12rem;
     }
-    
-    .collection {
-        display: flex;
-        position: absolute;
-        top: 7%;
-    }
-    
-    .brandfront {
-        width: 25%;
-        padding-left: 1rem;
-    }
-    
-    .brandright {
-        width: 40%;
-        padding-top: 5rem;
-        padding-left: 5px;
-    }
-    
-    .brandleft {
-        width: 40%;
-        padding-right: 0rem;
-    }
+     
+.collection {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100vw;
+    top: 38%;
+}
+
+.front {
+    width: 400px;
+    height: 200px;
+}
+
+.left {
+    width: 400px;
+    height: 200px;
+}
+
+.right {
+    width: 400px;
+    height: 200px;
+}
+
+
+     
+     .brandright{
+         
+         width: 400px;
+         height: 300px; 
+         margin-right:46rem;
+     
+      }
+     
+      .side2{
+         width: 600px;
+         height: 500px; 
+         z-index: 1; 
+         margin-top: 2rem;
+         box-shadow: 3rem;
+      }
+
     
     .icons {
         display: flex;
         position: absolute;
-        top: 68%;
+        top: 70%;
     }
     .righticon {
         padding-left: 19rem;
@@ -261,15 +317,14 @@ body {
     
     .description {
         position: absolute;
-        top: 90%;
+        top: 100%;
         padding-left: 3rem;
         padding-right: 2rem;
         font-family: Dosis;
     }
     
     .description h3 {
-        font-size: 18px;
-        line-height: 1.3;
+        font-size: 12px;        
     }
     
     .utilities {

@@ -22,9 +22,10 @@ const Creatorpage = () => {
         <img src={PAGEBODY} alt='pagebody' />
         <div className='class'><h1>CLASS: CREATORS</h1></div>
         <div className='collection'>
-          <div className='brandright'><img src={BRANDRIGHT} alt='brandright' /></div>
-          <div className='brandleft'><img src={BRANDLEFT} alt='brandleft' /></div>
-          <div className='brandfront'><img src={BRANDFRONT} alt='brandfront' /></div>
+
+        <img src={BRANDLEFT} alt='brandleft' className='left' />
+          <img src={BRANDRIGHT} alt='brandright' className='front'/>
+          <img src={BRANDRIGHT} alt='brandright' className='right' />
         </div>
         <div className='icons'>
           <div className='lefticon'><img src={LEFTICON} alt='lefticon' /></div>

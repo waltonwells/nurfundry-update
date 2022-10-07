@@ -28,9 +28,10 @@ const Fanspage = () => {
         <img src={PAGEBODY} alt='pagebody' />
         <div className='class'><h1>CLASS: FANS</h1></div>
         <div className='collection'>
-          <div className='brandfront'><img src={BRANDFRONT} alt='brandfront' /></div>
-          <div className='brandright'><img src={BRANDRIGHT} alt='brandright' /></div>
-          <div className='brandleft'><img src={BRANDLEFT} alt='brandleft' /></div>
+
+          <img src={BRANDLEFT} alt='brandleft' className='left' />
+          <img src={BRANDRIGHT} alt='brandright' className='front'/>
+          <img src={BRANDRIGHT} alt='brandright' className='right' />
         </div>
         <div className='icons'>
           <div className='lefticon'><img src={LEFTICON} alt='lefticon' /></div>
