@@ -42,13 +42,15 @@ const Brandpage = () => {
         <h2>UTILITIES</h2>
       </div>
     
+    <div className='coming'>
   <div className='coming1'>
-  <h3 className=' text-center'>
+  <h3 className=' text-center'>Comng soon <br/>
 Coming soon<br/> coming soon<br/>Coming soon<br/> coming soon<br/></h3>
 </div>
 <div className='coming2'>
-<h3 className=' text-center'>
+<h3 className=' text-center'>Comng soon <br/>
 Coming soon<br/> coming soon<br/>Coming soon<br/> coming soon<br/></h3>
+</div>
 </div>
       <div className='pgbtns'>
         <div className='connectwallet'><img src={CONNECTWALLET} alt='connectwallet' /></div>
@@ -58,9 +60,7 @@ Coming soon<br/> coming soon<br/>Coming soon<br/> coming soon<br/></h3>
       <h2>33  08  08<br></br>DAYS  HOURS  MINS</h2>
       </div>
     </div>
-    <div className='foot'>
     <Footer/>
-    </div>
   </div>
   )
 }

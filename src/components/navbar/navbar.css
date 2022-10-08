@@ -125,6 +125,66 @@ margin-left: 2rem;
     .gpt3__navbar-menu {
         display: flex;
     }
+    .gpt3_navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding-bottom: rem;
+        width: 100%;
+        height: 50px;
+    }
+    
+    .gpt3_navbar-links {
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+        padding-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .gpt3_navbar-icon {
+        padding-left: 1rem;
+        padding-top: 0.2rem;
+    
+    }
+    
+    .navlogo {
+        position: absolute;
+        margin-left: 3rem;
+        width: 400px;
+    
+    }
+    
+    .gpt3_navlogo img {
+        width: 200px;
+        height: 100px;
+    }
+    .social-icons {
+        display: flex;
+    
+        
+    }
+    
+    .social-icons >a{
+    margin: 1px;
+    display: flex;
+    justify-content:end;
+    place-items: end;
+    flex:1;
+    }
+    
+    .linkedin, .discord, .facebook, .twitter, .instagram {
+       display: flex;
+       justify-content: flex-end;
+       align-items: end;
+        width: 40px;
+        height: 0px;
+        margin-top:3rem;
+        margin-right:1rem;
+    }
+    
 }
 
 @media screen and (max-width: 700px) {

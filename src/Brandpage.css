@@ -46,6 +46,7 @@ body {
     display: flex;
     position: absolute;
     justify-content: center;
+    width: 100vw;
 }
 
 
@@ -126,7 +127,7 @@ body {
 
 .price {
     position: absolute;
-    top: 165%;
+    top: 175%;
     padding-left: 40rem;
 }
 
@@ -197,7 +198,7 @@ width: 400px;
     align-items: center;
     position: absolute;
     top: 285%;
-    padding-left: 32rem;
+    padding-left: 28rem;
     padding-top: 7rem;
 }
 
@@ -216,265 +217,27 @@ width: 400px;
 
 
 
-@media screen and (max-width:900px) {
-    .pagebody{
-        background: image(url(../src/assets/BIGBODY.svg));
-        align-items: center;
-        width: 100%;
-    }
-    .class{
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        display: block;
-        padding-right: 30rem;
-        margin-top: 0;
-        padding-top: 0;
-        height: 0%;
-
-         
-    }
-    .pagebody img{
-        width: 500px;
-        position: relative;
-    }
-    
-    .pagebody .class {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .pagebody .class h1 {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        font-size: 30px;
-    }
-     
-.collection {
-    display: flex;
-     height: 0%;
-    justify-content: center;
-    width: 100%;
-}
-
-.front {
-    width: 400px;
-    height: 200px;
-}
-
-.left {
-    width: 400px;
-    height: 200px;
-}
-
-.right {
-    width: 400px;
-    height: 200px;
-}
-
-
-     
-     .brandright{
-         width: 400px;
-         height: 300px; 
-         margin-right:46rem;
-     
-      }
-      .collection{
-        width:100%;
-        margin-top: 10rem;
-      }
-     .class > h1{
-        margin-top: 0;
-        padding-top: 0;
-        margin-right: 3rem;
-        width: 100%;
-        margin-bottom: 3rem;
-        font-size: 30px;
-        font-weight: 300;
-     }
-      .side2{
-         width: 600px;
-         height: 500px; 
-         z-index: 1; 
-         margin-top: 2rem;
-         box-shadow: 3rem;
-      }
-.foot{
-
-    width: 100%;
-    margin-left: 2.5rem;
-    height: 100%;
-    margin-top: 40rem;
-}
-    
-    .icons {
-        display: flex;
-    }
-    .righticon {
-        display: flex;
-        justify-content: end;
-
-
-    }
-    
-    .lefticon {
-display: flex;
-justify-content: start;  
-  }
-    
-    .lefticon img{
-        width: 40px;
-        height: 40px;
-    }
-    
-    .righticon img {
-        width: 40px;
-        height: 40px;
-    }
-    
-    .price {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex: 1;
-        
-    }
-    .coming1 > h3{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-
-    }
-    
-    .price h3 {
-        font-size: 35px;
-        font-weight: lighter;
-        margin-top: 10rem ;
-    }
-    
-    .description {
-        display: flex;
-        width: 400px;
-        justify-content: center;
-        text-align: center;
-        margin-top: 6rem;
-
-        font-family: Dosis;
-    }
-    
-    .description h3 {
-        font-size: 12px;        
-    }
-    
-    .utilities {
-
-        display: block;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20rem;
-    }
-    
-    .utilities h2 {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        padding-right: 13rem;
-        font-size: 30px;
-    }
-    
-    /* .coming {
-        display: block;
-        text-align: center;
-        font-size: 20px;
-        font-family: dosis;
-        display: flex;
-height: 0%; 
-   } */
-    .coming1 {
-        display: flex;
-        text-align: center;
-        height: 0%; 
-        padding-left: 1rem;
-        margin-top: 30rem;
-        z-index: 1;
-    }
-    
-    .coming2 {
-        display: flex;
-        text-align: center;
-        height: 0%; 
-        padding-left: 3rem;
-    }
-    
-    .countdown {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 12rem;
-        font-size: 20px;
-        margin-top: 20rem;
-    }
-    .pagebody img{
-        width: 100%;
-        z-index: -1;
-        position: relative;
-    }
-    
-    .pgbtns {
-        display: flex;
-        justify-content: center;
-        margin-left: 3rem;
-        margin-top: 16rem;
-    }
-    
-    .connectwallet img{
-        width: 150px;
-        height: 38px;
-    }
-    
-    .mintnow {
-        padding-left: 3rem;
-    }
-    .mintnow img{
-        width: 150px;
-        height: 38px;
-    }
-}
-
-
 @media screen and (max-width:700px) {
     .pagebody{
         background: image(url(../src/assets/BIGBODY.svg));
         align-items: center;
         width: 100%;
     }
-    .class{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        display: block;
-        padding-right: 30rem;
-        margin-top: 0;
-        padding-top: 0;
-        height: 0%;
-
-         
-    }
+    
     .pagebody img{
         width: 500px;
         position: relative;
     }
     
+
     .pagebody .class {
         display: flex;
+        margin-top: 5rem;
         justify-content: center;
     }
     
     .pagebody .class h1 {
+        margin-top: 5rem;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -483,7 +246,7 @@ height: 0%;
      
 .collection {
     display: flex;
-     height: 0%;
+    
     justify-content: center;
     width: 100%;
 }
@@ -506,24 +269,13 @@ height: 0%;
 
      
      .brandright{
+         
          width: 400px;
          height: 300px; 
          margin-right:46rem;
      
       }
-      .collection{
-        width:100%;
-        margin-top: 10rem;
-      }
-     .class > h1{
-        margin-top: 0;
-        padding-top: 0;
-        margin-right: 3rem;
-        width: 100%;
-        margin-bottom: 3rem;
-        font-size: 30px;
-        font-weight: 300;
-     }
+     
       .side2{
          width: 600px;
          height: 500px; 
@@ -531,11 +283,7 @@ height: 0%;
          margin-top: 2rem;
          box-shadow: 3rem;
       }
-.foot{
-    width: 100%;
-    margin-left: 2.5rem;
-    height: 100%;
-}
+
     
     .icons {
         display: flex;
@@ -569,25 +317,17 @@ justify-content: start;
         flex: 1;
         
     }
-    .coming1 > h3{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-
-    }
     
     .price h3 {
         font-size: 35px;
         font-weight: lighter;
-        margin-top: 10rem ;
     }
     
     .description {
         display: flex;
         width: 400px;
-        justify-content: center;
         text-align: center;
-        margin-top: 6rem;
+        place-items: center;
 
         font-family: Dosis;
     }
@@ -597,11 +337,10 @@ justify-content: start;
     }
     
     .utilities {
-
         display: block;
         justify-content: center;
         align-items: center;
-        margin-top: 20rem;
+        flex: 1;
     }
     
     .utilities h2 {
@@ -609,53 +348,42 @@ justify-content: start;
         align-items: center;
         text-align: center;
         justify-content: center;
-        padding-right: 13rem;
+
         font-size: 30px;
     }
     
-    /* .coming {
-        display: block;
-        text-align: center;
+    .coming {
+        position: absolute;
+        top: 107%;
+        padding-left: 7rem;
         font-size: 20px;
         font-family: dosis;
         display: flex;
-height: 0%; 
-   } */
+        padding-top: 10rem;
+    }
     .coming1 {
-        display: flex;
-        text-align: center;
-        height: 0%; 
         padding-left: 1rem;
-        margin-top: 30rem;
-        z-index: 1;
     }
     
     .coming2 {
-        display: flex;
-        text-align: center;
-        height: 0%; 
-        padding-left: 3rem;
+        padding-left: 2rem;
     }
     
     .countdown {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        position: absolute;
+        top: 160%;
         padding-left: 12rem;
         font-size: 20px;
-        margin-top: 20rem;
-    }
-    .pagebody img{
-        width: 100%;
-        z-index: -1;
-        position: relative;
+        padding-top: 3rem;
     }
     
     .pgbtns {
         display: flex;
-        justify-content: center;
-        margin-left: 3rem;
-        margin-top: 16rem;
+        justify-content: space-between;
+        position: absolute;
+        top: 138%;
+        padding-left: 5rem;
+        padding-top: 7rem;
     }
     
     .connectwallet img{
