@@ -8,7 +8,7 @@ import FACEBOOK from '../../assets/FACEBOOK.png'
 import DISCORD from '../../assets/DISCORD.png'
 import './navbar.css'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-
+import { NavLink } from 'react-router-dom'
 // BEM  Block Element Modifier
 const Navbar = () => {
 
@@ -39,24 +39,24 @@ const Navbar = () => {
 
    </div>
    <div className='navlogo'>
-<img src={logo} alt="hoobank" className="logo" style={{objectFit: 'contain', height: '80px', width:'300px'}} />
+<NavLink to='/'><img src={logo} alt="hoobank" className="logo" style={{objectFit: 'contain', height: '80px', width:'300px'}} /></NavLink>
 
 </div>
           <div className='social-icons'>
             <div className='linkedin'>
-              <img src={LINKEDIN} alt='linkedin' />
+             <a href='https://www.linkedin.com/company/nufoundry/'> <img src={LINKEDIN} alt='linkedin' /></a>
             </div>
-            <div className='twitter'>
-              <img src={TWITTER} alt='twitter' />
+    <div className='twitter'>
+    <a href='https://twitter.com/Nufoundry'> <img src={TWITTER} alt='twitter' /></a>
             </div>
             <div className='instagram'>
-              <img src={INSTAGRAM} alt='instagram' />
+              <a href='https://www.instagram.com/nufoundry/'> <img src={INSTAGRAM} alt='instagram' /></a>
             </div>
             <div className='facebook'>
-              <img src={FACEBOOK} alt='facebook' />
+              <a href='https://www.facebook.com/profile.php?'><img src={FACEBOOK} alt='facebook' /></a>
             </div>
             <div className='discord'>
-              <img src={DISCORD} alt='discord' />
+             <a href='https://discord.gg/5WGgNsyR'> <img src={DISCORD} alt='discord' /></a>
             </div>
           </div>
 

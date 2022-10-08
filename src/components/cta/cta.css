@@ -56,3 +56,46 @@
     height: 500px;
     padding-right: 5rem;
 }
+@media (max-width:550px) {
+    .cta {
+        background: rgba(0, 0, 0, 0.652);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        z-index: 1;
+        height: 500px;
+        width: 100%;
+    }
+    
+    .cta .cta-text {
+        color: white;
+        padding-left: 4rem;
+    }
+    .cta .cta-text .cta-btn .btn2 {
+        display:block;
+    }
+    
+    .cta .cta-text .cta-btn .btn2 button{ 
+        width: 280px;
+        display: block;
+    }
+    .cta .cta-text .cta-btn button {
+        background-color: #F1A61E;
+        width: 184px;
+        height: 70px;
+        border-radius: 10px;
+        /* display: block; */
+        color: white;
+        font-size: 20px;
+        text-align:center;
+          display: block;        
+        font-family: koulen;
+    }
+    .cta-btn{
+        display: flex;
+        text-align: center;
+        margin: 1rem;
+
+    }
+}

@@ -9,6 +9,7 @@ import Fanspage from './Fanspage';
 const App = () => {
   return (
     <div className='App'>
+      
           <Routes>
           <Route path="/" element={ <Home/> } />
         <Route path="fanspage" element={ <Fanspage/> } />

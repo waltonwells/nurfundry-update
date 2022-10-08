@@ -2,16 +2,16 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .App {
-  width: 50%;
+  width: 100%;
   margin: 10rem auto;
-  height: 570px;
+  height: 70px;
 }
 
 .slide img {
   width: 20rem;
   margin: 0 auto;
 }
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
 .slide {
   transform: scale(0.2);
   transition: transform 300ms;
@@ -32,6 +32,8 @@
 
 .arrow svg {
   transition: color 300ms;
+  height: 2rem;
+  width: 3rem;
 }
 
 .arrow svg:hover {

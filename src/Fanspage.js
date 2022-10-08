@@ -14,11 +14,10 @@ import './Fanspage.css';
 import { Navbar } from './components';
 import { Footer } from './containers';
 
-
+import { Imageslider3 } from './constant';
 
 const Fanspage = () => {
   
-
   return (
     <div className='App'>
 <div className='gradient_bg'>
@@ -28,16 +27,19 @@ const Fanspage = () => {
         <img src={PAGEBODY} alt='pagebody' />
         <div className='class'><h1>CLASS: FANS</h1></div>
         <div className='collection'>
-
+{/* 
           <img src={BRANDLEFT} alt='brandleft' className='left' />
           <img src={BRANDRIGHT} alt='brandright' className='front'/>
-          <img src={BRANDRIGHT} alt='brandright' className='right' />
+          <img src={BRANDRIGHT} alt='brandright' className='right' /> */}
+          <Imageslider3/>
         </div>
-        <div className='icons'>
+        {/* <div className='icons'>
           <div className='lefticon'><img src={LEFTICON} alt='lefticon' /></div>
           <div className='righticon'><img src={RIGHTICON} alt='righticon' /></div>
-        </div>
-        <div className='price'><h3>????/????</h3></div>
+        </div> */}
+
+
+        <div className='price'><h3>5,00/5,000</h3></div>
         <div className='description'>
           <h3>Fans are the champions and soul behind every strong community. They are the<br></br>voice of every project and the catalyst between ecosystems that propagate<br></br>synergies around them. Their mission is to facilitate growth and drive a positive<br></br>brand narrative within the Nufoundry Ecosystem.</h3>
         </div>
