@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 
@@ -80,18 +82,15 @@ body {
     width: 25%;
     padding-left: 15rem;
 }
-
 .brandright img {
     height: 400px;
     width: 400px;
 }
-
 .brandleft {
     width: 40%;
     padding-top: 5rem;
     padding-left: 20px;
 }
-
 .brandfront {
     width: 25%;
     padding-right: 15rem;
@@ -217,7 +216,7 @@ width: 400px;
 
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:500px) {
     .pagebody{
         background: image(url(../src/assets/BIGBODY.svg));
         align-items: center;
@@ -237,6 +236,828 @@ width: 400px;
     }
     
     .pagebody .class h1 {
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+    }
+     
+.collection {
+    display: flex;
+    
+    justify-content: center;
+    width: 100%;
+}
+
+.front {
+    width: 400px;
+    height: 200px;
+}
+
+.left {
+    width: 400px;
+    height: 200px;
+}
+
+.right {
+    width: 400px;
+    height: 200px;
+}
+
+
+     
+     .brandright{
+         
+         width: 400px;
+         height: 300px; 
+         margin-right:46rem;
+     
+      }
+     
+      .side2{
+         width: 600px;
+         height: 500px; 
+         z-index: 1; 
+         margin-top: 2rem;
+         box-shadow: 3rem;
+      }
+
+    
+    .icons {
+        display: flex;
+    }
+    .righticon {
+        display: flex;
+        justify-content: end;
+
+
+    }
+    
+    .lefticon {
+display: flex;
+justify-content: start;  
+  }
+    
+    .lefticon img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .righticon img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        
+    }
+    
+    .price h3 {
+        font-size: 35px;
+        font-weight: lighter;
+    }
+    
+    .description {
+        display: flex;
+        width: 400px;
+        text-align: center;
+        place-items: center;
+
+        font-family: Dosis;
+    }
+    
+    .description h3 {
+        font-size: 12px;        
+    }
+    
+    .utilities {
+        display: block;
+        top: 4px;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+    
+    .utilities h2 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        font-size: 30px;
+    }
+    
+    .coming {
+        position: absolute;
+        top: 107%;
+        padding-left: 7rem;
+        font-size: 20px;
+        font-family: dosis;
+        display: flex;
+        padding-top: 10rem;
+    }
+    .coming1 {
+        padding-left: 1rem;
+    }
+    
+    .coming2 {
+        padding-left: 2rem;
+    }
+    
+    .countdown {
+        position: absolute;
+        top: 160%;
+        padding-left: 12rem;
+        font-size: 20px;
+        padding-top: 3rem;
+    }
+    
+    .pgbtns {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 138%;
+        padding-left: 5rem;
+        padding-top: 7rem;
+    }
+    
+    .connectwallet img{
+        width: 150px;
+        height: 38px;
+    }
+    
+    .mintnow {
+        padding-left: 3rem;
+    }
+    .mintnow img{
+        width: 150px;
+        height: 38px;
+    }
+.footer{
+        margin-top: 66rem;
+}
+
+} 
+
+/* @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+
+body{
+font-family: 'koulen', cursive;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-bg);
+}
+
+.hero {
+    z-index: -1;
+}
+
+
+.pagebody{
+    background: image(url(../src/assets/BIGBODY.svg));
+    align-items: center;
+}
+
+.pagebody img{
+    width: 100%;
+    z-index: -1;
+    position: relative;
+}
+
+.Brandpagebody{
+   top: op;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+
+}
+
+
+
+.brandclass{
+    padding-top: 4rem;
+    top: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+      font-size: 85px;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    
+}
+.brandcollection {
+    height: 100%;
+    top: 0px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.brandprice{
+    margin-top: 0;
+    top: 40rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+      font-size: 85px;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+.brandutilities{
+    position: absolute;
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+      font-size: 85px;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.brandupdate1{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: 200;
+    font-family: Dosis;
+}
+.brandupdate2{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: 200;
+    width: 100%;
+    height: 100%;
+    margin-top: 30rem ;
+    font-family: Dosis;
+
+}
+.brandpgbtns{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    width: 400px;
+      padding-top: 40rem;
+      padding: 3rem;
+      justify-content: space-between;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    
+}
+
+.brandcountdown{
+    position: absolute;
+    top: 70rem;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+      font-size: 85px;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    padding-top: 70rem;
+}
+.brandcountdown > h2{
+      text-align:  center;
+      padding-left: 10rem;
+      padding-right: 10rem;
+
+}
+.brandupdateP{
+    position: absolute;
+    display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+    font-family: Dosis;
+}
+.branddesc{
+    position: absolute;
+    display: flex;
+    top: 50rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    position: absolute;
+    padding-top: 20rem;
+}
+
+
+
+.brandupdate2 > h3{
+    position: absolute;
+     display: flex;
+     padding-top: 10rem;
+}
+
+
+.coming1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+width: 400px;
+}
+
+.coming2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+width: 400px;
+
+} 
+.coming{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-top: 67rem;
+    text-align: center;
+    width: 100%;
+    
+    margin-right:6rem;
+      gap: 10px;
+
+}
+
+
+
+@media (max-width:500px) {
+    
+
+    .pagebody img{
+        width: 100%;
+        z-index: -1;
+        position: relative;
+    }
+    
+    .Brandpagebody{
+    position: absolute;
+        display: flex;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+        place-content: center;
+    
+    }
+    
+    
+    
+    .brandclass{
+        padding-top: 0rem;
+        top: 0px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-weight: 200;
+          font-size: 25px;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        
+    }
+    .brandcollection {
+        position: absolute;
+        height: 100%;
+        top: 34px;
+        margin-top: 30rem;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .brandprice{
+        padding-top: 0;
+        top: 75rem;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-weight: 500;
+          font-size: 70px;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+    }
+    .brandutilities{
+        position: absolute;
+        padding-top: 25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-weight: 200;
+          font-size: 40px;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+    
+    }
+    
+    .brandupdate1{
+        position: absolute;
+        display: block;
+        top:2px;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        font-weight: 200;
+        font-family: Dosis;
+        max-width: 300px;
+    }
+    .brandupdate2{
+        position: absolute;
+        display: block;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: 200;
+        width: 100%;
+        height: 100%;
+        margin-top: 3rem ;
+        font-family: Dosis;
+    
+    }
+    .brandpgbtns{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+          padding-top: 200rem;
+          justify-content: space-between;
+        display: flex;
+        margin: 2rem;
+        justify-content: center;
+        align-items: center;
+        place-content: center;
+        
+    }
+    
+    .brandcountdown{
+        position: absolute;
+        top: 85rem;
+        margin-top: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-weight: 200;
+          font-size: 25px;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        margin-top: 10rem;
+    }
+    .brandcountdown > h2{
+        position: absolute;
+          text-align:  center;
+          padding-left: 10rem;
+          padding-right: 10rem;
+    
+    }
+    .brandupdateP{
+        position: absolute;
+        display: flex;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+        font-family: Dosis;
+    }
+    .branddesc{
+        position: absolute;
+        display: flex;
+        top: 50rem;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        position: absolute;
+        margin-top: rem;
+    }
+    
+    
+    
+    .brandupdate2 > h3{
+         display: none;
+         margin-top: 6rem;
+    }
+    .coming{
+        top: 20rem;
+        display: block;
+    }
+    
+    .coming1 {
+        position: fixed;
+        display:  none;
+        top: 3px;
+        padding-left: 2rem;
+        justify-content: center;
+        align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    width: 300px;
+    }
+    .coming1 > h2{
+     top: 0px;
+     margin-top: 0;
+    }
+    .coming2{
+        display:none;
+    
+    } 
+    .coming{
+        position: absolute;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        margin-top: 150rem;
+    }
+    
+
+} */
+
+
+
+
+/* .brandleft{
+    display: flex;
+    justify-content: center;
+    place-content: center;
+   width: 400px;
+   height: 300px; 
+   margin-left:46rem;
+
+} */
+
+/* .brandright{
+    
+    width: 400px;
+    height: 300px; 
+    margin-right:46rem;
+
+ } */
+/* 
+ .brandfront{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    width: 600px;
+    height: 500px; 
+    z-index: 1; 
+    margin-top: 2rem;
+    box-shadow: 3rem;
+ } */
+
+
+/* .brandright{
+    width: 25%;
+    padding-left: 15rem;
+}
+
+.brandright img {
+    height: 400px;
+    width: 400px;
+}
+
+.brandleft {
+    width: 40%;
+    padding-top: 5rem;
+    padding-left: 20px;
+}
+
+.brandfront {
+    width: 25%;
+    padding-right: 15rem;
+} */
+
+
+
+
+
+/* .brandfront img {
+    width: 400px;
+    height: 400px;
+}
+
+.icons {
+    display: flex;
+justify-content: center;
+
+    top: 145%;
+}
+.righticon {
+    padding-left: 70rem;
+}
+
+.lefticon {
+    padding-left: 3rem;
+} */
+
+/* .lefticon img{
+    width: 130px;
+    height: 130px;
+}
+
+.righticon img {
+    width: 130px;
+    height: 130px;
+} */
+/* 
+.price {
+    position: absolute;
+    top: 175%;
+    padding-left: 40rem;
+}
+
+.price h3 {
+    font-size: 59px;
+    font-weight: lighter;
+}
+
+.description {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+    font-family: Dosis;
+}
+
+.description h3 {
+    font-size: 30px;
+}
+
+.coming{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-top: 67rem;
+    text-align: center;
+    width: 100%;
+    
+    margin-right:6rem;
+      gap: 10px;
+
+}
+
+.utilities h2 {
+    text-align: center;
+}
+
+
+
+
+/* .countdown {
+      text-align: center;
+      display: flex;
+    font-size: 30px;
+    
+}
+
+.pgbtns {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 285%;
+    padding-left: 28rem;
+    padding-top: 7rem;
+}
+
+.connectwallet img{
+    width: 200px;
+    height: 48px;
+}
+
+.mintnow {
+    padding-left: 5rem;
+}
+.mintnow img{
+    width: 200px;
+    height: 48px;
+}
+
+
+
+@media  (max-width:500px) {
+    .pagebody{
+        height: 100%;
+        background: image(url(../src/assets/BIGBODY.svg));
+        align-items: center;
+        width: 100%;
+        position: relative;
+        z-index: -1;
+    } */
+    
+    /* .pagebody img{
+        width: 500px;
+        
+    } */
+
+/* .class{
+     width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-family: koulen, cursive;
+    font-size: 26px;
+    font-weight: 200;
+    top: -30%; 
+    
+
+  
+    
+}
+    .collection{
+        position: absolute;
+        width:100%;
+        display: flex;
+  height: 100%;
+        top:-95%;
+    }
+
+    .pagebody .class {
+
+        display: flex;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px;
+        text-align: center;
+        justify-content: center;
+
+
+    }
+    .footer{
+        margin-top: 24rem;
+    }
+    .pagebody .class h1 {
+        height: 100%;
+        width: 100%;
         margin-top: 5rem;
         display: flex;
         justify-content: center;
@@ -398,4 +1219,4 @@ justify-content: start;
         width: 150px;
         height: 38px;
     }
-}
+} */

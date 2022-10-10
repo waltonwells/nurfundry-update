@@ -39,7 +39,7 @@ const Navbar = () => {
 
    </div>
    <div className='navlogo'>
-<NavLink to='/'><img src={logo} alt="hoobank" className="logo" style={{objectFit: 'contain', height: '80px', width:'300px'}} /></NavLink>
+<NavLink to='/'><img src={logo} alt="hoobank" className="logoheader" style={{objectFit: 'contain', height: '80px', width:'300px'}} /></NavLink>
 
 </div>
           <div className='social-icons'>

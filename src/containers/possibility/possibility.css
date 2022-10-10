@@ -52,7 +52,12 @@
     height: 500px;
     padding-right: 5rem;
 }
-@media (max-width:550px) {
+
+
+
+
+
+@media (max-width:500px) {
 
     .possibility {
         background: rgba(0, 0, 0, 0.652);

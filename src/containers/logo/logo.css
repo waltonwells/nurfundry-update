@@ -1,5 +1,35 @@
 .audience {
-    width: 90%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     align-items: center;
-    padding-left: 10rem;
+    /* padding-left: 10rem; */
+}
+
+
+@media (max-width:500px) {
+    .audience {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        place-content: center;
+        height: 100%;
+   position: relative;
+   width: 100%;
+   
+   z-index: 1;
+    }
+
+    .audience img {
+ display: flex;
+ justify-content: center;
+ place-content: center;
+ align-items: center;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        top: -190%;
+        padding-top: 9rem;
+    }
+
 }

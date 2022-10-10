@@ -5,3 +5,26 @@
 .brand img{
     width: 100%;
 }
+
+
+ @media (max-width:500px) {
+    
+    .brand {
+   height: 100%;
+   position: relative;
+   width: 100%;
+   background-color: red;
+   z-index: 1;
+
+  }
+    .brand img {
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        top: -265%;
+
+
+    }
+
+} 

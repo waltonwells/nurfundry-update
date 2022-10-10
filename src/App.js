@@ -5,6 +5,7 @@ import Creatorpage from './Creatorpage';
 import { Route, Routes } from "react-router-dom"
 import './App.css';
 import Fanspage from './Fanspage';
+import { Footer } from './containers';
 
 const App = () => {
   return (

@@ -69,7 +69,9 @@ Creator toolkit sponsorship</h3>
         <h2>33  08  08<br></br>DAYS  HOURS  MINS</h2>
         </div>
       </div>
+      <div className='footer'>
       <Footer/>
+      </div>
     </div>
   )
 }

@@ -5,6 +5,7 @@ import BIGBODY from '../src/assets/BIGBODY.svg';
 import NEWBODY from '../src/assets/NEWBODY.svg';
 import { Footer } from './containers';
 import './home.css'
+
 export const Home = () => {
   return (
     <div className='App'>
@@ -31,18 +32,24 @@ export const Home = () => {
       <div className='possib'>
       <Possibility />
       </div>
-
       <CTA />
       </div>
 
-      <div className='newbody'>
-        <img src={NEWBODY} alt='newbody' />
-        <Blog />
-      </div>
+      <div className='new'>
 
-      <div className='footer'>
-        <Footer/>
-        </div>
+      <img src={NEWBODY} alt='newbody' />
+     <Blog/>
+     <div>
+     </div>
+
+     {/* <div className='footer'>
+       <Footer/>
+        </div> */}
+      </div>
+  
+
+
+      
     </div>
   )
 }

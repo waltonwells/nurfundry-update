@@ -52,3 +52,177 @@
     height: 500px;
     padding-right: 5rem;
 }
+
+
+/* 
+
+
+
+.features {
+    background: rgba(0, 0, 0, 0).652;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    z-index: -1;
+    height: 700px;
+}
+
+.features .features-text {
+    color: white;
+    padding-left: 5rem;
+    padding-bottom: 15rem;
+}
+
+.features .features-text h1 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 140px;
+}
+
+.features .features-text h2 {
+    font-size: 28px;
+    font-weight: lighter;
+    line-height: 45px;
+}
+
+.features .features-text .features-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.features .features-text .features-btn button {
+    background-color: #F1A61E;
+    width: 184px;
+    height: 70px;
+    border-radius: 10px;
+    color: white;
+    font-size: 28px;
+    font-family: koulen;
+}
+
+.features .features-text .features-btn .btn2 {
+    padding-right: 15rem;
+}
+
+.features-image img {
+    width: 450px;
+    height: 500px;
+    padding-right: 5rem;
+} */
+
+
+
+
+
+ @media (max-width:500px) {
+    .features {
+         background: rgba(0, 0, 0, 0).652; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    text-align: center;
+    
+        color: white;
+        z-index: 1;
+        width: 100%;
+        position: relative;
+        height:100%;
+    }
+    
+    .features .features-text {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        color: white;
+        width: 100%;
+        top: -7%;
+        z-index: 1;
+    }
+    
+    .features .features-text h1 {
+       align-items: center;
+       text-align: center;
+       display: flex;
+       justify-content: center;
+        font-size: 40px;
+        font-weight: 200;
+        width: 100%;
+        height: 100%;
+        top: -220%;
+        padding-right: 100px;
+
+        position: absolute;
+    }
+    
+    .features .features-text h2 {
+        text-align: center;
+        justify-content: center;
+         display: flex;
+         font-size: 20px;
+         /* width: 100%; */
+         /* height: 100%; */
+         top: -99%;
+         /* max-width: 400px; */
+
+         position: absolute;
+    }
+    
+    .features .features-text .features-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        padding: 0px;
+        max-width: 300px;
+    }
+    
+    .features .features-text .features-btn button {
+        width: 140px;
+        height: 45px;
+        color: white;
+        font-size: 20px;
+        font-family: koulen;
+        background: #f1a61e;
+        border-radius: 5px;
+        top: -205%;
+
+        position: absolute;
+    }
+    
+    .features .features-text .features-btn .btn2 {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+position: absolute;
+z-index: 1;
+text-align: center; 
+top: -254%;    
+    }
+
+ 
+    
+    .features-image img {
+         /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        /* width: 450px;
+        
+        height: 500px; */
+        height: 100%;
+        width: 100%;
+        background-color: yellow;
+        
+        position:absolute;
+         top:-1070px;
+        
+
+        
+    }
+
+} 
